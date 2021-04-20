@@ -1,3 +1,7 @@
+# cqrs-quarkus-kafka-udinei
+
+Projeto e implantação de uma aplicação desenvolvida com o framework Quarkus escrita Kotlin, localmente usando docker, e na nuvem usando o serviço Elastic Kubernetes Service da Amazon. A aplicação é um exemplo do padrão CQRS que contempla dois serviços Quarkus que se comunicam através de um barramento assíncrono usando o Kafka e banco de dados Postgres e MongoDB. Com a  criação dos manifestos do Kubernetes para implantação no EKS e as configurações necessárias para ter o ambiente rodando em produção na AWS.
+
 # Estrutura do projeto
 - balance-service
 - images
@@ -115,7 +119,9 @@ Windows:
 
 
 # Referências
+* [Projeto Live Labs Wesley Fuchter](https://github.com/wesleyfuchter/cqrs-quarkus-kafka)
 * [RedHat Quarkus](https://www.redhat.com/pt-br/topics/cloud-native-apps/what-is-quarkus)
 * [Introdução ao Quarkus](https://www.infoq.com/br/articles/getting-started-with-quarkus/)
 * [Comandos PSQL](https://pt.wikibooks.org/wiki/PostgreSQL_Pr%C3%A1tico/Ferramentas/psql)
 * [Postgres](https://www.postgresql.org/)
+* [Tutorial Mongo](https://www.luiztools.com.br/post/tutorial-mongodb-para-iniciantes-em-nosql-2/)
