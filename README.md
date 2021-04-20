@@ -138,3 +138,6 @@ Windows:
 * [Comandos PSQL](https://pt.wikibooks.org/wiki/PostgreSQL_Pr%C3%A1tico/Ferramentas/psql)
 * [Postgres](https://www.postgresql.org/)
 * [Tutorial Mongo](https://www.luiztools.com.br/post/tutorial-mongodb-para-iniciantes-em-nosql-2/)
+* [Flyway](https://quarkus.io/guides/flyway)
+* [kafka](https://kafka.apache.org/quickstart)
+
