@@ -2,7 +2,7 @@
 
 Projeto e implantação de uma aplicação desenvolvida com o framework Quarkus, localmente usando docker, e na nuvem usando o serviço Elastic Kubernetes Service da Amazon. A aplicação é um exemplo do padrão CQRS que contempla dois serviços Quarkus escritos em Kotlin que se comunicam através de um barramento assíncrono usando o Kafka, armazenando ddos nos Banco de dados Postgres e MongoDB. Com a criação dos manifestos do Kubernetes para implantação no EKS e as configurações necessárias para ter o ambiente rodando em produção na AWS.
 
-# Arquitetura cloud
+# Arquitetura da aplicação (Cloud)
 ![](images/arquitetura-cloud.png)
 
 # Stack
