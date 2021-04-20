@@ -1,6 +1,19 @@
 # cqrs-quarkus-kafka-udinei
 
-Projeto e implantação de uma aplicação desenvolvida com o framework Quarkus escrita Kotlin, localmente usando docker, e na nuvem usando o serviço Elastic Kubernetes Service da Amazon. A aplicação é um exemplo do padrão CQRS que contempla dois serviços Quarkus que se comunicam através de um barramento assíncrono usando o Kafka e banco de dados Postgres e MongoDB. Com a  criação dos manifestos do Kubernetes para implantação no EKS e as configurações necessárias para ter o ambiente rodando em produção na AWS.
+Projeto e implantação de uma aplicação desenvolvida com o framework Quarkus, localmente usando docker, e na nuvem usando o serviço Elastic Kubernetes Service da Amazon. A aplicação é um exemplo do padrão CQRS que contempla dois serviços Quarkus escritos em Kotlin que se comunicam através de um barramento assíncrono usando o Kafka, armazenando ddos nos Banco de dados Postgres e MongoDB. Com a criação dos manifestos do Kubernetes para implantação no EKS e as configurações necessárias para ter o ambiente rodando em produção na AWS.
+
+
+# Stack
+- Quarkus
+- Java 15
+- Kotlin 1.3.61
+- Docker v19.03.8
+- Docker compose
+- Kafka 2.4.0
+- mongoDB
+- PostgreSQL
+- Zookeeper
+- Gradle 6.8
 
 # Estrutura do projeto
 - balance-service
