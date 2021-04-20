@@ -80,7 +80,7 @@ docker exec -e "PGOPTIONS=--search_path=<your_schema>" -it docker_pg psql -U use
 <pre>porstgres#\dn - list of schemas</pre>
 
 ### Listando todas as base de dados
-<pre>postgres# \l<pre>
+<pre>postgres# \l</pre>
 
 ### Altenando entre banco de dados
 <pre>postgres# \c nomeBanco user</pre>
