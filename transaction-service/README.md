@@ -2,18 +2,6 @@
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
-# Stack
-- Java 15
-- Quarkus
-- Kotlin 1.3.61
-- Docker
-- Docker compose
-- Kafka 2.1.0
-- mongoDB
-- PostgreSQL
-- Zookeeper
-- Gradle 6.8
-
 # Estrutura do projeto
 - transaction-service
     - gradle
@@ -69,10 +57,3 @@ type varchar not null,
 value decimal not null
 );
 </pre>
-
-
-# Referências
-*[Flyway](https://quarkus.io/guides/flyway)
-*[kafka](https://kafka.apache.org/quickstart)
-
-
