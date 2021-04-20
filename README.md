@@ -80,18 +80,19 @@ docker exec -e "PGOPTIONS=--search_path=<your_schema>" -it docker_pg psql -U use
 <pre>porstgres#\dn - list of schemas</pre>
 
 ### Listando todas as base de dados
-postgres# \l
+<pre>postgres# \l<pre>
 
 ### Altenando entre banco de dados
-postgres# \c <nomeBanco> <user>
+<pre>postgres# \c nomeBanco user</pre>
 
 ### Listando tabelas do BD
-posgtres# \dt
+<pre>posgtres# \dt</pre>
 
 
 # Help MongoDB
 ### Acessando o Container do mongoDB
 No terminal executar:
+
 Linux:
 <pre>docker exec -it bankaccount-mongo bash</pre>
 Windows:
@@ -114,7 +115,7 @@ Windows:
 
 
 # Referências
-*[RedHat Quarkus](https://www.redhat.com/pt-br/topics/cloud-native-apps/what-is-quarkus)
-*[Introdução ao Quarkus](https://www.infoq.com/br/articles/getting-started-with-quarkus/)
-*[Comandos PSQL](https://pt.wikibooks.org/wiki/PostgreSQL_Pr%C3%A1tico/Ferramentas/psql)
-*[Postgres](https://www.postgresql.org/)
+* [RedHat Quarkus](https://www.redhat.com/pt-br/topics/cloud-native-apps/what-is-quarkus)
+* [Introdução ao Quarkus](https://www.infoq.com/br/articles/getting-started-with-quarkus/)
+* [Comandos PSQL](https://pt.wikibooks.org/wiki/PostgreSQL_Pr%C3%A1tico/Ferramentas/psql)
+* [Postgres](https://www.postgresql.org/)
