@@ -2,18 +2,6 @@
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
-# Stack
-- Quarkus
-- Java 15
-- Kotlin 1.3.61
-- Docker v19.03.8
-- Docker compose
-- Kafka 2.4.0
-- mongoDB
-- PostgreSQL
-- Zookeeper
-- Gradle 6.8
-
 
 # Estrutura do projeto
 - balance-service
