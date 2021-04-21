@@ -37,18 +37,18 @@ Projeto e implantação de uma aplicação desenvolvida com o framework Quarkus,
 # Atualizando as dependências do projeto
 <pre>gradle dependencies</pre>
 
-# Compilando a aplicação 
+# Build da aplicação
 Na pasta do serviço transaction-service execute:
 <pre>gradle clean build -x test</pre>
 
+### Atualizando pacotes
 <pre>gradle -Pnative -Dquarkus.native.container-build=true</pre>
 
-#Criando um executável nativo da aplicação
+### Gerando Build Native da aplicação
 Já vem com a GraalVM, que roda sem a necessidade da JVM java
 
 <pre>gradle buildNative --docker-build=true</pre>
 
-# Executando a aplicação
 
 # Subindo a infra Local (containers Docker) 
 Na pasta do projeto executar:
