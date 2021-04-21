@@ -17,14 +17,40 @@ Projeto e implantação de uma aplicação desenvolvida com o framework Quarkus,
 - Zookeeper
 - Gradle 6.8
 
+# Requisitos
+
+- Conta na AWS
+  - Criar instâncias
+     - kubernetes (RDS)
+     - K6PerformanceServer (EC2)
+     - kafkaServer (EC2)
+       - zookeeper (Container Docker)
+       - kafka (Container Docker)
+     - 3 instâncias EC2 (Nodes para Kubernetes)
+
 # Estrutura do projeto
 - balance-service
 - images
 - performance-tests
 - transaction-service
-  
+ 
+# Atualizando as dependências do projeto
+<pre>gradle dependencies</pre>
 
-# Subindo a infra (containers Docker) local
+# Compilando a aplicação 
+Na pasta do serviço transaction-service execute:
+<pre>gradle clean build -x test</pre>
+
+<pre>gradle -Pnative -Dquarkus.native.container-build=true</pre>
+
+#Criando um executável nativo da aplicação
+Já vem com a GraalVM, que roda sem a necessidade da JVM java
+
+<pre>gradle buildNative --docker-build=true</pre>
+
+# Executando a aplicação
+
+# Subindo a infra Local (containers Docker) 
 Na pasta do projeto executar:
 <pre> docker-compose up --build -d</pre>
 
