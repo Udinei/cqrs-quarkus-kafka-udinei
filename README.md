@@ -143,8 +143,8 @@ Linux:
 Windows:
 <pre>winpty docker exec -it bankaccount-mongo bash</pre>
 
-### Conectanto o cliente mongo ao servidor MongoDB
-<pre>mongo</pre>
+### Conectando o cliente mongo ao servidor MongoDB
+<pre>mongo -u usuário-da-base -p senha-da-base host-de-conexao/nome-da-base</pre>
 
 ### Exibindo banco de dados no mongo
 <pre>show database</pre>
